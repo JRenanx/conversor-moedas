@@ -1,0 +1,7 @@
+<div class="container">
+    <label>Real R$: </label>
+    <input type="number" id="valor" 
+    [(ngModel)]="valor" (keyup)="converteMoeda()">
+</div>
+
+<app-cp-table [moedas]="moedas"></app-cp-table>
